@@ -1,0 +1,21 @@
+.footer {
+  background-color: #000;
+  padding: .625rem;
+}
+
+p.footer {
+  padding: .625rem;
+}
+
+.footLink {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Oleo Script', cursive;
+}
+
+.footLink:hover {
+  color: #fc60e2;
+  text-decoration: none;
+  transition-duration: .8s;
+}

@@ -1,0 +1,43 @@
+.card {
+  background-color: #ddd;
+  box-shadow: 2px 2px 7px #888;
+  height: 250px;
+  margin: .625rem auto 2rem;
+  width: 220px;
+}
+
+.card:hover {
+  box-shadow: 4px 4px .875rem #555;
+}
+
+.card-body {
+  height: 170px;
+  padding: .625rem;
+}
+
+.card-button {
+  border-radius: 180px;
+  box-shadow: 2px 2px 0 0 #000;
+  font-size: .625rem;
+  padding: 5px .75rem;
+}
+
+.card-padding {
+  padding: 0 0 5px 0;
+}
+
+.card-text {
+  font-family: 'Average Sans', sans-serif;
+  font-size: .625rem;
+}
+
+.card-title {
+  color: #000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.card-top {
+  background-color: red;
+  height: 80px;
+}

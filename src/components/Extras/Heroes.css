@@ -1,0 +1,73 @@
+.AboutHero {
+  background-image: url("https://caerwyns-creations.s3.us-west-2.amazonaws.com/Hearts_Wall3.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+@media (max-width:575px) {
+  .AboutHero {
+    height: 300px;
+  }
+}
+
+.GalleryHero {
+  background-image: url("https://caerwyns-creations.s3.us-west-2.amazonaws.com/Hearts_Wall2.gif");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+@media (max-width:575px) {
+  .GalleryHero {
+    height: 300px;
+  }
+}
+
+.IndexHero {
+  background-image: url("https://caerwyns-creations.s3.us-west-2.amazonaws.com/Hearts_Wall1.jpg");
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+@media (max-width:1199px) {
+  .IndexHero {
+    height: 600px;
+  }
+}
+
+@media (max-width:991px) {
+  .IndexHero {
+    height: 400px;
+  }
+}
+
+@media (max-width:767px) {
+  .IndexHero {
+    height: 350px;
+  }
+}
+
+@media (max-width:575px) {
+  .IndexHero {
+    height: 250px;
+  }
+}
+
+.ProductsHero {
+  background-image: url("https://caerwyns-creations.s3.us-west-2.amazonaws.com/Halloween_Wall1.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+@media (max-width:575px) {
+  .ProductsHero {
+    height: 300px;
+  }
+}

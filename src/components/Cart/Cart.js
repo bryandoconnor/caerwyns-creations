@@ -4,9 +4,10 @@
 import React from 'react';
 import '../../index.css';
 import Cards from '../Card/Card';
+import './Cart.css';
 
 function Cart(props) {
-	const taxCalc = Number(props.productPrice * .0685).toFixed(2);
+	const taxCalc = Number(props.productPrice * .07).toFixed(2);
 	const totalCalc = (Number(props.productPrice) + Number(taxCalc)).toFixed(2);
 
 	return (
@@ -14,7 +15,7 @@ function Cart(props) {
 
 			<div className="row lg-margin">
 				<div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
-					<img src={props.productLogo} alt="Product Icon" />
+					<img alt="Product Icon" className="cart-product-img" src={props.productLogo}  />
 				</div>
 
 				<div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">

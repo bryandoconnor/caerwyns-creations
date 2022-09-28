@@ -44,121 +44,179 @@ function App() {
 		);
 	};
     
-	const marketingCart = () => {
+	const aztecCart = () => {
 		setCarts(
 			{
-				productName: "Marketing Package",
-				productShortname: "Marketing",
+				productName: "Aztec Bracelet",
+				productShortname: "Aztec Bracelet",
 				productQuantity: 1,
-				productPrice: 14999.99,
-				productRowHeader: "This package includes logo, business card, envelope & letterhead designs as well as a style guide!",
-				productIncludes1: "✓ Logo Design",
-				productIncludes2: "✓ Business Card Design",
-				productIncludes3: "✓ Style Guide",
-				productLogo: "https://bryandoconnor.s3-us-west-2.amazonaws.com/images/Branding-icon.svg",
-				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6JTXU56HHYALG"
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Aztec.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LMEMQ3KC677SG"
+			}
+		);
+	};
+
+	const braveCart = () => {
+		setCarts(
+			{
+				productName: "Brave Bracelet",
+				productShortname: "Brave Bracelet",
+				productQuantity: 1,
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Brave.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JTEBHSVVU5ZNW"
+			}
+		);
+	};
+
+	const calmCart = () => {
+		setCarts(
+			{
+				productName: "Calm Bracelet",
+				productShortname: "Calm Bracelet",
+				productQuantity: 1,
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Calm.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PSXVU55MNQGC6"
+			}
+		);
+	};
+
+	const canyonCart = () => {
+		setCarts(
+			{
+				productName: "Canyon Bracelet",
+				productShortname: "Canyon Bracelet",
+				productQuantity: 1,
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Canyon.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YSPDS6RH3FE94"
 			}
 		);
 	};
     
-	const logoCart = () => {
+	const lunaCart = () => {
 		setCarts(
 			{
-				productName: "Logo Design",
-				productShortname: "Logo",
+				productName: "Luna Bracelet",
+				productShortname: "Luna Bracelet",
 				productQuantity: 1,
-				productPrice: 9999.99,
-				productRowHeader: "Logo design includes 4 logo versions. 10 thumbnails, 2 revisions, 3 roughs, and 1 final world-class logo!",
-				productIncludes1: "✓ Refresh or Recreate a Logo",
-				productIncludes2: "✓ Professional Look",
-				productIncludes3: "✓ Vector Files",
-				productLogo: "https://bryandoconnor.s3-us-west-2.amazonaws.com/images/Logos-icon.svg",
-				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B826XEELJR6Y2"
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Luna.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E7SKQ9QQTXB2U"
+			}
+		);
+	};
+
+	const mermaidCart = () => {
+		setCarts(
+			{
+				productName: "Mermaid Bracelet",
+				productShortname: "Mermaid Bracelet",
+				productQuantity: 1,
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Mermaid.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BQW26MMMGKWJ2"
 			}
 		);
 	};
     
-	const businesscardCart = () => {
+	const princessCart = () => {
 		setCarts(
 			{
-				productName: "Business Card Design",
-				productShortname: "Business Card",
+				productName: "Princess Bracelet",
+				productShortname: "Princess Bracelet",
 				productQuantity: 1,
-				productPrice: 499.99,
-				productRowHeader: "Your business card design includes 3 layout roughs, one final layout and file formats for future use (print and vector)!",
-				productIncludes1: "✓ Beautiful Custom Designs",
-				productIncludes2: "✓ Professional Templates",
-				productIncludes3: "✓ Print-ready Files",
-				productLogo: "https://bryandoconnor.s3-us-west-2.amazonaws.com/images/BusinessCards-icon.svg",
-				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHB43GC3Z8UKA"
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Princess.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=439RGCJMCPTLJ"
 			}
 		);
 	};
 
-	const illustrationCart = () => {
+	const shineCart = () => {
 		setCarts(
 			{
-				productName: "Custom Illustrations",
-				productShortname: "Illustrations",
+				productName: "Shine Bracelet",
+				productShortname: "Shine Bracelet",
 				productQuantity: 1,
-				productPrice: 8999.99,
-				productRowHeader: "Your custom illustration includes 3 layout roughs, one final layout and file formats for future use (print only)!",
-				productIncludes1: "✓ Professional Illustration",
-				productIncludes2: "✓ Choose Style and Color Options",
-				productIncludes3: "✓ Print-ready Files",
-				productLogo: "https://bryandoconnor.s3-us-west-2.amazonaws.com/images/Illustrations-icon.svg",
-				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KECFQC6L3UBQU"
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Shine_Wrist.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T7A98M947FQML"
 			}
 		);
 	};
 
-	const inviteCart = () => {
+	const surfCart = () => {
 		setCarts(
 			{
-				productName: "Wedding Invite Design",
-				productShortname: "Wedding Invite",
+				productName: "Surf Bracelet",
+				productShortname: "Surf Bracelet",
 				productQuantity: 1,
-				productPrice: 399.99,
-				productRowHeader: "Custom wedding invite design includes 3 layout roughs, one final layout and file formats that last a lifetime!",
-				productIncludes1: "✓ Create Your Dream Invite",
-				productIncludes2: "✓ Professional Template",
-				productIncludes3: "✓ Print-ready Files",
-				productLogo: "https://bryandoconnor.s3-us-west-2.amazonaws.com/images/Invites-icon.svg",
-				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BJ49P6J8N5MQL"
+				productPrice: 2.00,
+				productRowHeader: "",
+				productIncludes1: "",
+				productIncludes2: "",
+				productIncludes3: "",
+				productLogo: "https://caerwyns-creations.s3.us-west-2.amazonaws.com/Surf.jpg",
+				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P4DLXF2C97MHL"
 			}
 		);
 	};
-
-	const websiteCart = () => {
-		setCarts(
-			{
-				productName: "Website Design",
-				productShortname: "Website",
-				productQuantity: 1,
-				productPrice: 19999.99,
-				productRowHeader: "Your professional website design includes a SPA with 5 pages, 10 hand-picked images, and modern iconography!",
-				productIncludes1: "✓ Fully Functioning Code",
-				productIncludes2: "✓ Professional UX/UI",
-				productIncludes3: "✓ Amazing Images and Icons",
-				productLogo: "https://bryandoconnor.s3-us-west-2.amazonaws.com/images/Web-icon.svg",
-				productLinkURL: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PTGDMFBKX9P6Q"
-			}
-		);
-	};
+	
 
 	const chooseClick = (e) => {
-		if(e.currentTarget.id === "Marketing Package") {
-			marketingCart();
-		} else if(e.currentTarget.id === "Logo Design") {
-			logoCart();
-		} else if (e.currentTarget.id === "Business Card Design") {
-			businesscardCart();
-		} else if (e.currentTarget.id === "Custom Illustrations") {
-			illustrationCart();
-		} else if (e.currentTarget.id === "Wedding Invite Design") {
-			inviteCart();
-		} else if (e.currentTarget.id === "Website Design") {
-			websiteCart();
+		if(e.currentTarget.id === "Aztec Bracelet") {
+			aztecCart();
+		} else if (e.currentTarget.id === "Brave Bracelet") {
+			braveCart();
+		} else if (e.currentTarget.id === "Calm Bracelet") {
+			calmCart();
+		} else if (e.currentTarget.id === "Canyon Bracelet") {
+			canyonCart();
+		} else if(e.currentTarget.id === "Luna Bracelet") {
+			lunaCart();
+		} else if (e.currentTarget.id === "Mermaid Bracelet") {
+			mermaidCart();
+		} else if (e.currentTarget.id === "Princess Bracelet") {
+			princessCart();
+		} else if (e.currentTarget.id === "Shine Bracelet") {
+			shineCart();
+		} else if (e.currentTarget.id === "Surf Bracelet") {
+			surfCart();
 		}
 	}
 

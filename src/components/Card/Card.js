@@ -15,7 +15,8 @@ function Cards(props) {
 						backgroundColor: res.productColor,
 						backgroundImage: `url(${  res.productLogo  })`,
 						backgroundPosition: 'center center',
-						backgroundRepeat: 'no-repeat'
+						backgroundRepeat: 'no-repeat',
+						backgroundSize: 200
 					}} />
 					<div className="card-body d-inline-block w-100">
 						<div className="card-title m-0">
@@ -30,7 +31,7 @@ function Cards(props) {
 							</ul>
 							<div className="text-center">
 								<button type="button" className="btn btn-success card-button main-button mx-auto my-0">
-									{res.productButtonText1} | {res.productPrice}
+									{res.productButtonText2} | {res.productPrice}
 								</button>
 							</div>
 						</div>

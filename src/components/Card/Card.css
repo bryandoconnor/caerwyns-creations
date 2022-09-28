@@ -1,9 +1,9 @@
 .card {
   background-color: #ddd;
   box-shadow: 2px 2px 7px #888;
-  height: 250px;
+  height: 325px;
   margin: .625rem auto 2rem;
-  width: 220px;
+  width: 200px;
 }
 
 .card:hover {
@@ -39,5 +39,6 @@
 
 .card-top {
   background-color: red;
-  height: 80px;
+  height: 200px;
+  padding: 100px;
 }

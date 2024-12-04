@@ -11,8 +11,14 @@ function HomeHeading() {
 			<div className="IndexHero" />
 			<div className="d-block row text-center">
 				<h1 className="main-heading">Welcome to Caerwyn's Creations!</h1>
-				<p className="xlg-paragraph lg-margin lg-padding">Home of my latest creative endeavors! I'm always making something new and I want others to enjoy the things I come up with.</p>
-				<p className="xlg-paragraph lg-margin lg-padding">I started this site to help spread some of my coolest ideas across the globe. I hope you enjoy your time at my online store!</p>
+				<p className="xlg-paragraph lg-margin lg-padding">
+					Dive into a world of imagination and craftsmanship! Whether you're seeking unique products or just exploring, 
+					you've come to the right place.
+				</p>
+				<p className="xlg-paragraph lg-margin lg-padding">
+					Caerwyn's Creations is where ideas come alive. Each item is crafted with passion and care to bring a touch of magic to your everyday life.
+					Browse, shop, and let your creativity soar with us!
+				</p>
 			</div>
 		</div>
 	);
@@ -23,7 +29,7 @@ function HomeContent() {
 		<div>
 			<div className="text-center">
 				<Link to="/products">
-					<button className="lg-button lg-margin lg-padding main-button">Order Something Creative</button>
+					<button className="lg-button lg-margin lg-padding main-button">Discover Your Next Favorite Thing!</button>
 				</Link>
 			</div>
 

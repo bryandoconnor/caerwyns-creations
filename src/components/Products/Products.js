@@ -10,7 +10,7 @@ function ProductsHeading() {
 			<div className="ProductsHero" />
 			<div className="d-block row text-center">
 				<div className="col-12 p-0 text-center">
-					<h1 className="main-heading">Products</h1>
+					<h1 className="main-heading">Explore Our Creations</h1>
 				</div>
 			</div>
 		</div>

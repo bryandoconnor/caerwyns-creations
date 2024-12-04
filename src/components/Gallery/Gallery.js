@@ -13,7 +13,7 @@ function GalleryHeading() {
 			<div className="GalleryHero" />
 			<div className="row">
 				<div className="col-12 p-0 text-center">
-					<h1 className="main-heading">The Gallery!</h1>
+					<h1 className="main-heading">Discover Our Craftsmanship</h1>
 					<p className="xlg-paragraph lg-margin lg-padding">Here's some of my latest drawings and artwork!</p>
 				</div>
 			</div>
